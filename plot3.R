@@ -43,7 +43,9 @@ data <- mutate(data,
 
 # line plot of Sub_metering_1,2,3 vs. Date_time
 
-# open PNG device.  Default height and width is 480x480 pixels
+# open PNG device
+# default height and width is 480x480 pixels
+# default background is white
 png("plot3.png")
 
 # set for just 1 plot

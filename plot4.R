@@ -43,8 +43,10 @@ data <- mutate(data,
 
 # 4 panels in 2x2 arrangement
 
-# open PNG device.  Default height and width is 480x480 pixels
-png("plot4.png", height = 480, width = 480)
+# open PNG device
+# default height and width is 480x480 pixels
+# default background is white
+png("plot4.png")
 
 # set for 2x2 panels
 par(mfrow = c(2, 2))

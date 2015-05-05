@@ -43,7 +43,9 @@ data <- mutate(data,
 
 # histogram of Global_active_power
 
-# open PNG device.  Default height and width is 480x480 pixels
+# open PNG device
+# default height and width is 480x480 pixels
+# default background is white
 png("plot1.png")
 
 # set for just 1 plot
